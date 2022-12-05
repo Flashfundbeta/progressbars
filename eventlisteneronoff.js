@@ -1,1 +1,0 @@
-window.addEventListener("load", () => { hasNetwork(navigator.onLine); window.addEventListener("online", () => { // Set hasNetwork to online when they change to online. hasNetwork(true); }); window.addEventListener("offline", () => { // Set hasNetwork to offline when they change to offline. hasNetwork(false); }); });
