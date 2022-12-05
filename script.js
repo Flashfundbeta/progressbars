@@ -67,4 +67,4 @@ pb.startTo(5, 500);
 //end to progress after 5s
 setTimeout( () => {
   pb.end()
-}, 5000)
+}, 10000)
