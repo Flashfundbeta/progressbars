@@ -64,7 +64,7 @@ let pb = new Progress(15, 0, 100, {parent : ".progress"});
 //arg2 -> time(ms)
 pb.startTo(5, 500);
 
-//end to progress after 17s
+//end to progress after 5s
 setTimeout( () => {
   pb.end()
 }, 10000)
